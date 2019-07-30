@@ -121,8 +121,10 @@ Public Class Converter
         Using streamreader As System.IO.StreamReader = ffprobe.StandardOutput
             ffprobeoutput = streamreader.ReadToEnd.ToString
         End Using
-
-        IO.File.Delete(Windows.Forms.Application.StartupPath + "\.temp.mp4")
+        Try
+            IO.File.Delete(Windows.Forms.Application.StartupPath + "\.temp.mp4")
+        Catch ex As Exception
+        End Try
         If IsNumeric(ffprobeoutput) Then
             Return CInt(Val(ffprobeoutput) / 1000)
         Else
@@ -319,7 +321,11 @@ Public Class Converter
         ffmpeg.Start()
         ffmpeg.WaitForExit()
 
-        IO.File.Delete(Windows.Forms.Application.StartupPath + "\ffmpeg2pass-0.log")
+        Try
+            IO.File.Delete(Windows.Forms.Application.StartupPath + "\ffmpeg2pass-0.log")
+            IO.File.Delete(Windows.Forms.Application.StartupPath + "\ffmpeg2pass-0.log.mbtree")
+        Catch ex As Exception
+        End Try
     End Sub
 
     Private Sub createmp4()
@@ -455,7 +461,11 @@ Public Class Converter
         ffmpeg.Start()
         ffmpeg.WaitForExit()
 
-        IO.File.Delete(Windows.Forms.Application.StartupPath + "\ffmpeg2pass-0.log")
+        Try
+            IO.File.Delete(Windows.Forms.Application.StartupPath + "\ffmpeg2pass-0.log")
+            IO.File.Delete(Windows.Forms.Application.StartupPath + "\ffmpeg2pass-0.log.mbtree")
+        Catch ex As Exception
+        End Try
     End Sub
 
     Private Sub createpng()
