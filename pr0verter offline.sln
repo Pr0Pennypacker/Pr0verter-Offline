@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pr0verter offline", "pr0verter offline\pr0verter offline.vbproj", "{2FCC5222-E664-4C27-83D0-0366FB0A00DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FCC5222-E664-4C27-83D0-0366FB0A00DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FCC5222-E664-4C27-83D0-0366FB0A00DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FCC5222-E664-4C27-83D0-0366FB0A00DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FCC5222-E664-4C27-83D0-0366FB0A00DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAAF3929-46FA-47A8-978C-55A91338BCA1}
+	EndGlobalSection
+EndGlobal
