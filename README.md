@@ -34,6 +34,6 @@ Schreib [mir](https://pr0gramm.com/user/Pennypacker) gerne eine Nachricht mit Ve
 - Presets (HQ, Normal, Schnell, Pr0mium HQ, Pr0mium Normal, Pr0mium schnell) hinzugefügt
 - Es muss nun keine Start-/Endzeit mehr angegeben werden, wenn das komplette Video konvertiert werden soll
 - Es wurden einige Exceptions hinzugefügt
-- Komplette überarbeitung des Codes
+- Komplette Überarbeitung des Codes
 # Credits
 Erstellt von [Pennypacker](https://pr0gramm.com/user/Pennypacker)
