@@ -28,6 +28,7 @@ Schreib [mir](https://pr0gramm.com/user/Pennypacker) gerne eine Nachricht mit Ve
 # Changelog
 **Version 1.2 Hotfix**
 - Es wird nun auf Updates geprüft
+
 **Version 1.2**
 - Unterstützung für mp4 hinzugefügt
 - Frames können nun in einem Zeitbereich als PNG's exportiert werden
