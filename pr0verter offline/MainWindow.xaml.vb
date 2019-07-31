@@ -2,7 +2,6 @@
 Class MainWindow
 
     Private currentversion As String = "1.2"
-
     Private converter As New Converter
     Private ofd As New System.Windows.Forms.OpenFileDialog
     Private ofdresult As New System.Windows.Forms.DialogResult
