@@ -35,5 +35,6 @@ Schreib [mir](https://pr0gramm.com/user/Pennypacker) gerne eine Nachricht mit Ve
 - Es muss nun keine Start-/Endzeit mehr angegeben werden, wenn das komplette Video konvertiert werden soll
 - Es wurden einige Exceptions hinzugefügt
 - Komplette Überarbeitung des Codes
+- Hotfix: Es wird nun auf Updates geprüft
 # Credits
 Erstellt von [Pennypacker](https://pr0gramm.com/user/Pennypacker)
