@@ -7,7 +7,7 @@ Um pr0verter offline nutzen zu können, **müsst ihr ffmpeg installieren**!
 
 Jetzt einfach auf die aktuelle .exe in GitHub klicken, downloaden und loslegen!
 
-PS: Die Windows Defender Meldung kommt, weil die .exe von einem unbekannten Herausgeber ist. @5yn74x hat sich den [Code angeschaut](https://pr0gramm.com/new/3322321:comment31584466)
+PS: Die Windows Defender Meldung kommt, weil die .exe von einem unbekannten Herausgeber ist. @5yn74x hat sich den [Code angeschaut](https://pr0gramm.com/new/3322321:comment31584466).
 # Features
 - Konvertierung in das MP4 oder WebM format, MP4 wird auf dem Server nicht neu kodiert
 - Konvertiere alle Frames in einem Zeitbereich in PNG's und erstelle deine eigenen Memes
@@ -30,7 +30,7 @@ Schreib [mir](https://pr0gramm.com/user/Pennypacker) gerne eine Nachricht mit Ve
 - Es wird nun auf Updates geprüft
 
 **Version 1.2**
-- Unterstützung für mp4 hinzugefügt
+- Unterstützung für MP4 hinzugefügt
 - Frames können nun in einem Zeitbereich als PNG's exportiert werden
 - Der Dateiname, unter dem gespeichert wird, kann nun gewählt werden (bei PNG der Ordner)
 - FPS werden (wenn >30) auf 30 reduziert
