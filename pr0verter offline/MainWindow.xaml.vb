@@ -1,6 +1,8 @@
 ﻿Imports System.Threading
 Class MainWindow
 
+    Private currentversion As String = "1.2"
+
     Private converter As New Converter
     Private ofd As New System.Windows.Forms.OpenFileDialog
     Private ofdresult As New System.Windows.Forms.DialogResult
@@ -278,5 +280,30 @@ Class MainWindow
                 CheckBoxAufloesung.IsChecked = True
                 CheckBox2pass.IsChecked = False
         End Select
+    End Sub
+
+    Private Sub MainWindow_Loaded(sender As Object, e As RoutedEventArgs) Handles Me.Loaded
+        'Check for Updates
+        Try
+            Dim version As String
+            Dim request As System.Net.WebRequest = System.Net.WebRequest.Create("https://raw.githubusercontent.com/Pr0Pennypacker/Pr0verter-Offline/master/version")
+            Using response As System.Net.WebResponse = request.GetResponse
+                Using reader As New IO.StreamReader(response.GetResponseStream)
+                    version = reader.ReadToEnd
+                End Using
+            End Using
+            version = version.Trim
+            If String.Compare(currentversion, version) <> 0 Then
+                Select Case MessageBox.Show("Möchtest du Version " + CStr(version) + " installieren?", "Update verfügbar!", MessageBoxButton.YesNo)
+                    Case System.Windows.Forms.DialogResult.Yes
+                        Process.Start("https://github.com/Pr0Pennypacker/Pr0verter-Offline")
+                        Me.Close()
+                End Select
+            End If
+        Catch ex As Exception
+
+        End Try
+
+        Me.Title = "pr0verter offline V" + currentversion
     End Sub
 End Class

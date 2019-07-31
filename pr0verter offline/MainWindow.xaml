@@ -4,8 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:pr0verter_offline"
-        mc:Ignorable="d"
-        Title="pr0verter offline 1.2" Height="650" Width="420" FontFamily="Segeo UI" FontSize="18" ResizeMode="NoResize">
+        mc:Ignorable="d" Height="650" Width="420" FontFamily="Segeo UI" FontSize="18" ResizeMode="NoResize">
     <Grid Margin="20, 20, 20, 0">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20"/>
