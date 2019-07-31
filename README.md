@@ -26,6 +26,8 @@ Wäre die Datei größer, würde Pr0gramm neu kodieren und sie kleiner machen. E
 **Kannst du XY hinzufügen?**<br>
 Schreib [mir](https://pr0gramm.com/user/Pennypacker) gerne eine Nachricht mit Verbesserungsvorschlägen!
 # Changelog
+**Version 1.2 Hotfix**
+- Es wird nun auf Updates geprüft
 **Version 1.2**
 - Unterstützung für mp4 hinzugefügt
 - Frames können nun in einem Zeitbereich als PNG's exportiert werden
@@ -35,6 +37,5 @@ Schreib [mir](https://pr0gramm.com/user/Pennypacker) gerne eine Nachricht mit Ve
 - Es muss nun keine Start-/Endzeit mehr angegeben werden, wenn das komplette Video konvertiert werden soll
 - Es wurden einige Exceptions hinzugefügt
 - Komplette Überarbeitung des Codes
-- Hotfix: Es wird nun auf Updates geprüft
 # Credits
 Erstellt von [Pennypacker](https://pr0gramm.com/user/Pennypacker)
