@@ -1,6 +1,6 @@
 # Installation
 Um pr0verter offline nutzen zu können, **müsst ihr ffmpeg installieren**!
-1. Downloadet euch ein [Windows Build von ffmpeg](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.zip).
+1. Downloadet euch ein [Windows Build von ffmpeg](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z).
 2. Entpackt die ZIP und zieht den darin befindlichen Ordner irgendwo hin.
 3. Nun in der Windows suche (oder speziell in der Systemsteuerung) nach "Systemumgebungsvariablen bearbeiten" suchen. Klickt auf "Umgebungsvariablen..." und wählt im zweiten Abschnitt Path aus. Klickt nun auf bearbeiten. Anschließend erstellt einen neuen Eintrag mit dem Pfad zu dem bin ordner.
 4. Öffnet die Eingabeaufforderung und gebt ffmpeg und ffprobe ein. Beides sollte euch Informationen über die Programme liefern, dann habt ihr alles richtig gemacht.
